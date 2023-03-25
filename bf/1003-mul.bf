@@ -1,28 +1,34 @@
->, >, <<						read values
-+++++ +							convert to ascii
+read from stdin
+>, >, <<
+convert atoi
++++++ +
 [
  >----- ---
  >----- ---
  <<-
 ]
->[								perform multiplication
+multiply two integers
+>[
  >[>+>+<<-]
  >[<+>-]
  <<-
 ]
->[-]>+> >+++++ +++++<			separate numbers
+separate two digits inputed
+>[-]>+> >+++++ +++++<
 [
  - >- [>>>]+++++ +++++<<+
  [<<<]>>>>
 ]
 <-
 <+++++ +++++>>>[-<<<->>>]<<<
-<+++++ +						convert to ascii
+convert itoa
+<+++++ +
 [
  >+++++ +++>
  [+++++ +++>]
  <[<]>-
 ]
->>[.<<]<[<<]>> .				putchar result
->>
-+++++ +++++ .
+print with newline
+>>[.<<]<[<<]>>.
+>>,. 
+
